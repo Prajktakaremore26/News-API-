@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    position: relative;
+    background-color: #f8f8f4;
+    height: 1500px;
+    margin-bottom: 90px;
+}
+
+.heading {
+    font-size: 3rem; 
+    color: #0d0d0d;
+    text-align: center;
+    font-family: "Iowan Old Style";
+    font-size: 84px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+
+.red-dot {
+    color: #E84848;
+    width: 60.291px;
+    height: 60.291px;
+    font-size: 4.8rem;
+} 
+hr {   
+    border-top: 1px solid #3C3030;
+    height: 6px;
+    width: 100%;
+} 
+
+.search-bar{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    margin-bottom: 89px;
+    height: 61px
+}
+.search-bar input{
+    padding: 6px;
+    padding-left: 16px
+}
+.search-bar i{
+    color: rgb(117, 110, 110);
+    font-size: 13px;
+    position: relative;
+    left: 17px;
+}
+.search-bar button{
+    padding: 7.9px 7.9px;
+    color: white;
+    cursor: pointer;
+    background-color: red;
+    position: relative;
+    right: 10px;
+    border: red;
+
+}
+.Small-heading {
+    color: #d02424;
+    font-family: 'Inria Sans';
+    margin-left: 150px;
+    font-size: 20px;
+}
+
+.Grand-parents {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    gap: 25px;
+    margin-left: 130px;
+    margin-bottom: 89px;
+}
+
+.first-line{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 96px;
+}
+
+.second-line{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 96px;
+}
+
+.third-line {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 96px;
+}
+
+
+.first-child{
+    height: 200px;
+    margin: 2%;
+    word-wrap: break-word;
+    margin-right: 25px;
+}
+.first-child img{
+    width: 100%;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 120px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.first-child p{
+    width: 250px;
+    position: relative;
+    font-size: 18px;
+    letter-spacing: -0.04em;
+    line-height: 120%;
+    font-weight: 600;
+    font-family: 'Inknut Antiqua';
+    color: #3c3030;
+    display: inline-block;
+    margin-bottom: 16px;
+} 
+.first-child span{
+    font-size: 11px;
+    color: #3c3030;
+    font-size: 16px;
+    width: 250px;
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.second-child{
+    height: 200px;
+    width: 100%;
+    margin: 2%;
+    word-wrap: break-word;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+.second-child img{
+    width: 250px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 120px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.second-child p{
+    width: 250px;
+    position: relative;
+    font-size: 18px;
+    letter-spacing: -0.04em;
+    line-height: 120%;
+    font-weight: 600;
+    font-family: 'Inknut Antiqua';
+    color: #3c3030;
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 16px;
+} 
+.second-child span{
+    font-size: 11px;
+    color: #3c3030;
+    font-size: 16px;
+    width: 250px;
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.third-child{
+    height: 200px;
+    width: 100%;
+    margin: 2%;
+    word-wrap: break-word;
+    margin-right: 260px;
+}
+.third-child img{
+    width: 250px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 120px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.third-child p{
+    width: 250px;
+    position: relative;
+    font-size: 18px;
+    letter-spacing: -0.04em;
+    line-height: 120%;
+    font-weight: 600;
+    font-family: 'Inknut Antiqua';
+    color: #3c3030;
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 16px;
+} 
+.third-child span{
+    font-size: 11px;
+    color: #3c3030;
+    font-size: 16px;
+    width: 250px;
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.arrow-side {
+    display: flex;
+}
+.arrow-side i {
+    color: #d02424;
+    text-decoration: underline;
+    font-size: 11px;
+}
+
+
+ 
+footer {
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+} 
